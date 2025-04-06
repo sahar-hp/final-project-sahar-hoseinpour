@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+  direction: rtl;
+  background: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input {
+  border: none;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.header-box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+  background-color: rgb(255, 255, 255);
+  width: 1440px;
+  height: 197px;
+  align-items: center;
+}
+.head {
+  text-align: center;
+  background-color: #032340;
+  color: white;
+  width: 1535px;
+  height: 40px;
+  padding: 5px 5px;
+  font-size: 14px;
+}
+.logo-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 8px;
+  width: 1440px;
+  height: 197px;
+  position: relative;
+  margin-right: 60px;
+}
+.sell-style {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 15px;
+  margin-left: 60px;
+  transform: translatex(-30%);
+}
+.login-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  flex-direction: row-reverse;
+  order: 2;
+  border: 0px solid #ddd;
+  box-shadow: 0px 2px 10px rgba(139, 131, 131, 0.3);
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 5px 5px;
+}
+.card-box {
+  order: 1;
+}
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: #f9f9f9;
+  border: 1px solid #f9f9f9;
+  border-radius: 10px;
+  padding: 16px 40px;
+  width: 1300px;
+  height: 64px;
+  font-weight: bold;
+}
+.menu-list2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+  padding: 5px 2px;
+  position: relative;
+  font-weight: bold;
+  gap: 40px;
+}
+.matn-1 {
+  color: #606060;
+  font-weight: bold;
+  font-size: 16px;
+}
+.matn {
+  font-size: 32px;
+}
+.matn-2 {
+  font-size: 32px;
+  color: #fa541c;
+}
+.box-one {
+  gap: 30px;
+  padding: 18px;
+  line-height: 3.5em;
+  margin-right: 60px;
+  display: block;
+  width: 435px;
+  height: 305px;
+}
+.button-style {
+  width: 207px;
+  height: 48px;
+  background-color: #032340;
+  color: white;
+  padding: 8px 24px;
+  gap: 8px;
+  border-radius: 8px;
+  font-family: "Vazirmatn", sans-serif;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 14px;
+  gap: 10px;
+}
+.left-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.main-continer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
