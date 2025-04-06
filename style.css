@@ -34,6 +34,7 @@ input {
   width: 1440px;
   height: 197px;
   align-items: center;
+  margin-right: 60px;
 }
 .head {
   text-align: center;
@@ -78,6 +79,7 @@ input {
 }
 .card-box {
   order: 1;
+  margin-left: 60px;
 }
 .menu-list {
   display: flex;
@@ -113,13 +115,13 @@ input {
   color: #fa541c;
 }
 .box-one {
-  gap: 30px;
+  gap: 16px;
   padding: 18px;
   line-height: 3.5em;
-  margin-right: 60px;
   display: block;
   width: 435px;
   height: 305px;
+  margin-right: 60px;
 }
 .button-style {
   width: 207px;
@@ -141,7 +143,9 @@ input {
 .left-section {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
+  width: 233px;
+  height: 288px;
 }
 .main-continer {
   display: grid;
